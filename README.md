@@ -31,5 +31,5 @@ Chức năng app:
 - Giỏ hàng.
 - Feedback của khách hàng về dịch vụ.
 
-*Mindmap: https://www.mindmeister.com/1147188418#
-*Usecase: https://drive.google.com/file/d/1lz39tAhiversiYTPhJXSIsxp8-R7-9bJ/view?usp=sharing
+- Mindmap: https://www.mindmeister.com/1147188418#
+- Usecase: https://drive.google.com/file/d/1lz39tAhiversiYTPhJXSIsxp8-R7-9bJ/view?usp=sharing
