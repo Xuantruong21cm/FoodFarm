@@ -33,3 +33,4 @@ Chức năng app:
 
 - Mindmap: https://www.mindmeister.com/1147188418#
 - Usecase: https://drive.google.com/file/d/1lz39tAhiversiYTPhJXSIsxp8-R7-9bJ/view?usp=sharing
+- Vì phiên bản này e ko commit đc code lên mục app cho nên e đã sao chép toàn bộ code và đẩy sang 1 file khác-> link file:https://github.com/HongThaiFpoly/DuAn_1
