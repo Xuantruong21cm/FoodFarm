@@ -35,4 +35,4 @@ Chức năng app:
 - Usecase: https://drive.google.com/file/d/1lz39tAhiversiYTPhJXSIsxp8-R7-9bJ/view?usp=sharing
 - Vì file này e ko commit đc code lên git đc cho nên e đã sao chép toàn bộ code và đẩy sang 1 file khác
 - link app cho khách hàng: https://github.com/HongThaiFpoly/DuAn_1
-- link app cho quản lí: https://github.com/HongThaiFpoly/DuAn1_Manager1
+- link app cho quản lí: https://github.com/HongThaiFpoly/DuAn1_QuanLy
