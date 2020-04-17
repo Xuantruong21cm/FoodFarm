@@ -1,13 +1,13 @@
 package com.example.duan1_manager;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 public class Login_Activity extends AppCompatActivity {
     EditText edt_username ;
@@ -30,7 +30,7 @@ public class Login_Activity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Nhập Đầy Đủ Tài Khoản Mật Khẩu",Toast.LENGTH_SHORT).show();
                 }else {
                     if (username.equals("admin") && password.equals("admin")){
-                        Intent intent = new Intent(Login_Activity.this, MainActivity.class);
+                        Intent intent = new Intent(Login_Activity.this,MainActivity.class);
                         startActivity(intent);
                         finish();
                     }else {
