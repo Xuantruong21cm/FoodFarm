@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#A8F3AB"
+    android:onClick="noClick"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/custom_thanhtoan"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông Tin Khách Hàng"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_margin="5dp"
+                android:id="@+id/edt_TenKhachHang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên Khách Hàng"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_margin="5dp"
+                android:id="@+id/edt_SoDienThoai_KH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Số Điện Thoại"
+                android:inputType="phone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_margin="5dp"
+                android:id="@+id/edt_Email_KhachHang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Khách Hàng"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginRight="50dp"
+                android:id="@+id/btn_XacNhan_ThanhToan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_spinner"
+                android:padding="10dp"
+                android:text="Xác Nhận"
+                android:textAllCaps="false"
+                android:textColor="#EF4040"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_QuayLai_ThanhToan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_spinner"
+                android:padding="10dp"
+                android:text="Quay Lại"
+                android:textAllCaps="false"
+                android:textColor="#EF4040"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

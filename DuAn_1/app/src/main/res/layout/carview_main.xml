@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="95dp"
+    android:layout_height="95dp"
+    xmlns:carview="http://schemas.android.com/apk/res-auto"
+    android:padding="4dp"
+    carview:cardCornerRadius="4dp">
+    
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            android:id="@+id/img_Item_Main"
+            android:src="@drawable/meat_icon"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/tv_nameProduct"
+            android:textStyle="bold"
+            android:gravity="center|top"
+            android:textSize="18sp"
+            android:text="Thịt"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
